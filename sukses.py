@@ -54,7 +54,7 @@ logo = """
 \033[32;1m….// (\) ),——
 \033[32;1m…//___//
 \033[32;1m../`—-’ / …
-\033[32;1m./____ / …\033[32;1m{√}NAWAN•BARUS{√}
+\033[32;1m./____ / …\033[1;96m{√}NAWAN•BARUS{√}
 \033[0;1m╔═══════════════════════════════════════════╗
 \033[0;1m║\033[33;1m{√}\033[34;1mAuthor \033[1;93m: \033[0;1mN A W A N \033[1;93m                   
 \033[0;1m║\033[33;1m{√}\033[34;1mYouTube \033[1;93m: \033[0;1mnawan barus \033[1;93m                  
@@ -96,11 +96,12 @@ def siapa():
 def loginSC():
 	os.system('clear')
         print 42*"\033[1;96m="
-	print"\033[1;97mLogin Lisensi Scriptnya dulu Bestku,"
-        print"\033[1;97mJika tidak tau Lisensi nya Download Dulu"
-        print"\033[1;97mSilahkan download Lisensinya di website"
-        print"\033[1;97mYang barusan di Alihkan Otomatis"
-        print"\033[1;97mJanggan lupa SUBSCRIBE YouTube Admin Terimakasih"
+	print"\033[33;1mLogin Lisensi Scriptnya dulu Bestku,"
+        print"\033[33;1mJika tidak tau Lisensi nya Download Dulu"
+        print"\033[33;1mSilahkan download Lisensinya di website"
+        print"\033[33;1mYang barusan di Alihkan Otomatis"
+        print 42*"\033[1;96m="
+        print"\033[34;1mJanggan lupa SUBSCRIBE YouTube Admin Terimakasih"
         print 42*"\033[1;96m="
 	os.system('xdg-open https://tatawirdat.blogspot.com')
         username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
