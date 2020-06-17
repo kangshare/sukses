@@ -54,11 +54,11 @@ logo = """
 \033[32;1m….// (\) ),——
 \033[32;1m…//___//
 \033[32;1m../`—-’ / …
-\033[32;1m./____ / …Åhssine mohamed 🇲🇦
+\033[32;1m./____ / …\033[32;1m{√}NAWAN•BARUS{√}
 \033[0;1m╔═══════════════════════════════════════════╗
-\033[0;1m║\033[33;1m* \033[34;1mGithub  \033[1;93m: \033[0;1mhttps://github.com/spider-fb  \033[1;93m                   
-\033[0;1m║\033[33;1m* \033[34;1mYT  \033[1;93m    : \033[0;1m\033[4mYotube/Android top4\033[0m \033[1;93m                  
-\033[0;1m║\033[33;1m* \033[34;1mWhatsApp  \033[1;93m : \033[0;1m\033[4m+212682934279\033[0m \033[1;93m       
+\033[0;1m║\033[33;1m{√}\033[34;1mAuthor \033[1;93m: \033[0;1mNAWAN \033[1;93m                   
+\033[0;1m║\033[33;1m{√}\033[34;1mYouTube \033[1;93m: \033[0;1mnawan barus \033[1;93m                  
+\033[0;1m║\033[33;1m{√}\033[34;1mWhatsApp \033[1;93m: \033[0;1mBELUM ADA WA \033[1;93m       
 \033[0;1m╚═══════════════════════════════════════════╝
 """
 
@@ -81,21 +81,25 @@ vuln = "\033[32mVuln"
 
 def siapa():
 	os.system('clear')
-	nama = raw_input("\033[1;97mSiapa nama Mantan kamu ? \033[1;91m: \033[1;92m")
+	nama = raw_input("\033[1;97mSiapa nama Anda ? \033[1;91m: \033[1;92m")
 	if nama =="":
 		print"\033[1;96m[!] \033[1;91mIsi yang benar"
 		time.sleep(1)
 		siapa()
 	else:
 		os.system('clear')
-		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mMejuah Juah Lae, Horas Medan !!")
+		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mJanggan lupa SUBSCRIBE YuoTube Admin terimakasih !!")
 		time.sleep(1)
 		loginSC()
 		
 		
 def loginSC():
 	os.system('clear')
-	print"\033[1;97mSilahkan login Lisensi Scriptnya dulu Lae,kalau gak tau Lisensinya,silahkan download Lisensinya di website yang barusan di Alihkan Otomatis\n"
+        print 42*"\033[1;96m="
+	print"\033[1;97mLogin Lisensi Scriptnya dulu Bestku,kalau gak tau Lisensinya"
+        print"\033[1;97mSilahkan download Lisensinya di website yang barusan di Alihkan Otomatis"
+        print"\033[1;97mJanggan lupa SUBSCRIBE YouTube Admin Terimakasih
+        print 42*"\033[1;96m="
 	os.system('xdg-open https://tatawirdat.blogspot.com')
         username = raw_input("\033[1;96m[*] \033[1;97mID \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
