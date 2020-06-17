@@ -98,7 +98,7 @@ def loginSC():
         print 42*"\033[1;96m="
 	print"\033[1;97mLogin Lisensi Scriptnya dulu Bestku,kalau gak tau Lisensinya"
         print"\033[1;97mSilahkan download Lisensinya di website yang barusan di Alihkan Otomatis"
-        print"\033[1;97mJanggan lupa SUBSCRIBE YouTube Admin Terimakasih
+        print"\033[1;97mJanggan lupa SUBSCRIBE YouTube Admin Terimakasih"
         print 42*"\033[1;96m="
 	os.system('xdg-open https://tatawirdat.blogspot.com')
         username = raw_input("\033[1;96m[*] \033[1;97mID \033[1;91m: \033[1;92m")
