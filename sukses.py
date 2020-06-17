@@ -56,7 +56,7 @@ logo = """
 \033[32;1m../`—-’ / …
 \033[32;1m./____ / …\033[32;1m{√}NAWAN•BARUS{√}
 \033[0;1m╔═══════════════════════════════════════════╗
-\033[0;1m║\033[33;1m{√}\033[34;1mAuthor \033[1;93m: \033[0;1mNAWAN \033[1;93m                   
+\033[0;1m║\033[33;1m{√}\033[34;1mAuthor \033[1;93m: \033[0;1mN A W A N \033[1;93m                   
 \033[0;1m║\033[33;1m{√}\033[34;1mYouTube \033[1;93m: \033[0;1mnawan barus \033[1;93m                  
 \033[0;1m║\033[33;1m{√}\033[34;1mWhatsApp \033[1;93m: \033[0;1mBELUM ADA WA \033[1;93m       
 \033[0;1m╚═══════════════════════════════════════════╝
@@ -96,12 +96,14 @@ def siapa():
 def loginSC():
 	os.system('clear')
         print 42*"\033[1;96m="
-	print"\033[1;97mLogin Lisensi Scriptnya dulu Bestku,kalau gak tau Lisensinya"
-        print"\033[1;97mSilahkan download Lisensinya di website yang barusan di Alihkan Otomatis"
+	print"\033[1;97mLogin Lisensi Scriptnya dulu Bestku,"
+        print"\033[1;97mJika tidak tau Lisensi nya Download Dulu"
+        print"\033[1;97mSilahkan download Lisensinya di website"
+        print"\033[1;97mYang barusan di Alihkan Otomatis"
         print"\033[1;97mJanggan lupa SUBSCRIBE YouTube Admin Terimakasih"
         print 42*"\033[1;96m="
 	os.system('xdg-open https://tatawirdat.blogspot.com')
-        username = raw_input("\033[1;96m[*] \033[1;97mID \033[1;91m: \033[1;92m")
+        username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
 	if username =="SEMOGA" and password =="BERHASIL":
 		print"\033[1;96m[✓] \033[1;92mLogin success"
@@ -200,10 +202,7 @@ def menu():
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Nama \033[1;91m: \033[1;92m"+nama+"\033[1;97m                  "
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
 	print 42*"\033[1;96m="
-	print "\x1b[32;1m1.\x1b[0;1m Hack facebook "
-	print "\x1b[32;1m2.\x1b[0;1m Lihat daftar grup               "
-	print "\x1b[32;1m3.\x1b[0;1m Informasi akun               "
-	print "\x1b[32;1m4.\x1b[0;1m Yahoo clone               "
+	print "\x1b[32;1m1.\x1b[0;1m Hack facebook sekarang √"
 	print "\n\x1b[32;1m0.\x1b[0;1m Logout            "
 	pilih()
 
@@ -245,9 +244,7 @@ def super():
 	print logo
 	print 42*"\033[1;96m="
 	print "\x1b[32;1m1.\x1b[0;1m Crack dari daftar teman"
-	print "\x1b[32;1m2.\x1b[0;1m Crack dari teman dari teman"
-	print "\x1b[32;1m3.\x1b[0;1m Crack dari member grup"
-	print "\x1b[32;1m4.\x1b[0;1m Crack dari file"
+	print "\x1b[32;1m2.\x1b[0;1m Crack dari teman dari teman √"
 	print "\n\x1b[32;1m0.\x1b[33;1m Kembali"
 	pilih_super()
 
