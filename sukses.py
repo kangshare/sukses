@@ -101,7 +101,7 @@ def loginSC():
         print"\033[33;1mSilahkan download Lisensinya di website {√}"
         print"\033[33;1mYang barusan di Alihkan Otomatis {√}"
         print 42*"\033[1;96m="
-        print"\033[1;91mJanggan lupa SUBSCRIBE YouTube Admin Terimakasih\033[32;1m{√} "
+        print"\033[1;91mJanggan lupa SUBSCRIBE YouTube Admin Terimakasih \033[32;1m{√}"
         print 42*"\033[1;96m="
 	os.system('xdg-open https://tatawirdat.blogspot.com')
         username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
@@ -124,10 +124,8 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-                print 42*"\033[1;96m~"
                 print"\033[33;1mSilahkan Daftar Akun FB di Google Chrome"
                 print"\033[33;1mAgar Tidak Terkena Check Point Saat Login"
-                print 42*"\033[1;96m~"
 		print 42*"\033[1;96m="
 		print('\033[1;96m[☆] \x1b[1;93mLOGIN AKUN FACEBOOK ANDA \x1b[1;96m[☆]' )
 		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email \x1b[1;91m: \x1b[1;92m')
