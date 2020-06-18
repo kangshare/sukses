@@ -96,12 +96,14 @@ def siapa():
 def loginSC():
 	os.system('clear')
         print 42*"\033[1;96m="
-	print"\033[33;1mLogin Lisensi Scriptnya dulu Bestku {√}"
-        print"\033[33;1mJika tidak tau Lisensi nya Download Dulu {√}"
-        print"\033[33;1mSilahkan download Lisensinya di website {√}"
-        print"\033[33;1mYang barusan di Alihkan Otomatis {√}"
+	print"\033[1;93mLogin Lisensi Scriptnya dulu Bestku \033[33;1m{√}"
+        print"\033[1;93mJika tidak tau Lisensi nya Download Dulu \033[33;1m{√}"
+        print"\033[1;93mSilahkan download Lisensinya di website \033[33;1m{√}"
+        print"\033[1;93mYang barusan di Alihkan Otomatis \033[33;1m{√}"
         print 42*"\033[1;96m="
-        print"\033[1;91mJanggan lupa SUBSCRIBE YouTube Admin Terimakasih \033[32;1m{√}"
+        print"\033[1;93mSCRIPT INI DI UPDATE 3HARI SEKALI \033[33;1m{√}"
+        print 42*"\033[1;96m="
+        print"\033[1;93mJanggan lupa SUBSCRIBE YouTube Admin Terimakasih \033[33;1m{√}"
         print 42*"\033[1;96m="
 	os.system('xdg-open https://tatawirdat.blogspot.com')
         username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
