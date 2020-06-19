@@ -55,9 +55,9 @@ logo = """
 \033[32m../`—-’ / …
 \033[32m./____ / … 
 \033[32m╔════════════════════════*✓
-\033[33m{✓}\033[0;1mAuthor \033[0;1mG U N A W A N
-\033[33m{✓}\033[0;1mDecompile bye nawan 
-\033[33m{✓}\033[0;1mYoutube \033[0;1mnawan barus
+\033[33m{✓}\033[0;1mAuthor \033[1;91m: \033[0;1mG U N A W A N
+\033[33m{✓}\033[0;1mRecode \033[1;91m: \033[0;1mbye nawan 
+\033[33m{✓}\033[0;1mYoutube \033[1;91m: \033[0;1mnawan barus
 \033[32m╚════════════════════════*✓"""""
 
 def tik():
@@ -120,8 +120,8 @@ def login():
 		os.system('clear')
 		print logo
                 print 42*"\033[1;96m~"
-                print"\033[33;1mSilahkan Daftar Akun FB di Google Chrome"
-                print"\033[33;1mAgar Tidak Terkena Check Point Saat Login"
+                print"\033[33;1mSilahkan daftar akun FB di google chrome"
+                print"\033[33;1mAgar tidak terkena checkpoint saat login"
                 print 42*"\033[1;96m~"
 		print('\033[1;96m[☆] \x1b[1;93mLOGIN AKUN FACEBOOK ANDA \x1b[1;96m[☆]' )
 		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email \x1b[1;91m: \x1b[1;92m')
