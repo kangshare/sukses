@@ -46,19 +46,19 @@ def jalan(z):
 		
 		
 logo = """  
-\033[32m….._\____________________,,__
-\033[32m…./ `–│││││││││  \033[0;1mMejuah-Juah -->
-\033[32m…/_==o ______________\033[0;1mBinjai City -->
-\033[32m…..),—.(_(__) /
-\033[32m….// (\) ),——
-\033[32m…//___//
-\033[32m../`—-’ / …
-\033[32m./____ / … 
-\033[32m╔═════════════════=========
-\033[33m{*}\033[0;1mAuthor kalak karo
-\033[33m{*}\033[0;1mDecompile bye jepri barus
-\033[33m{✓}\033[0;1mYoutube Bang Jep
-\033[32m╚═════════════════========="""""
+\033[32;1m….._\____________________,,__
+\033[32;1m…./ `–│││││││││———————-_]
+\033[32;1m…/_==o ____________________DO°R*
+\033[32;1m…..),—.(_(__) /
+\033[32;1m….// (\) ),——
+\033[32;1m…//___//
+\033[32;1m../`—-’ / …
+\033[32;1m./____ / …\033[1;96m{√}NAWAN•BARUS{√}
+\033[0;1m╔═══════════════════════════════════════════╗
+\033[0;1m║\033[33;1m{√}\033[34;1mAuthor \033[1;91m: \033[0;1mN A W A N \033[1;93m                   
+\033[0;1m║\033[33;1m{√}\033[34;1mYouTube \033[1;91m: \033[0;1mnawan barus \033[1;93m                  
+\033[0;1m║\033[33;1m{√}\033[34;1mWhatsApp \033[1;91m: \033[0;1mBELUM ADA WA \033[1;93m       
+\033[0;1m╚═══════════════════════════════════════════╝
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -75,21 +75,30 @@ id = []
 
 def siapa():
 	os.system('clear')
-	nama = raw_input("\033[1;97mSiapa nama Mantan kamu ? \033[1;91m: \033[1;92m")
+	nama = raw_input("\033[1;97mSiapa nama Anda ? \033[1;91m: \033[1;92m")
 	if nama =="":
 		print"\033[1;96m[!] \033[1;91mIsi yang benar"
 		time.sleep(1)
 		siapa()
 	else:
 		os.system('clear')
-		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mMejuah Juah Lae, Horas Medan !!")
+		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mJanggan lupa SUBSCRIBE YuoTube Admin terimakasih !!")
 		time.sleep(1)
 		loginSC()
 		
                 
 def loginSC():
 	os.system('clear')
-	print"\033[1;97mSilahkan login Lisensi Scriptnya dulu Lae,kalau gak tau Lisensinya,silahkan download Lisensinya di website yang barusan di Alihkan Otomatis\n"
+	print 42*"\033[1;96m="
+	print"\033[1;93mLogin Lisensi Scriptnya dulu Bestku \033[33;1m{√}"
+        print"\033[1;93mJika tidak tau Lisensi nya Download Dulu \033[33;1m{√}"
+        print"\033[1;93mSilahkan download Lisensinya di website \033[33;1m{√}"
+        print"\033[1;93mYang barusan di Alihkan Otomatis \033[33;1m{√}"
+        print 42*"\033[1;96m="
+        print"\033[1;93mSCRIPT INI DI UPDATE 3HARI SEKALI \033[33;1m{√}"
+        print 42*"\033[1;96m="
+        print"\033[1;93mJanggan lupa SUBSCRIBE YouTube Admin Terimakasih \033[33;1m{√}"
+        print 42*"\033[1;96m="
 	os.system('xdg-open https://tatawirdat.blogspot.com')
         username = raw_input("\033[1;96m[*] \033[1;97mID \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
