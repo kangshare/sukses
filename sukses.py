@@ -73,6 +73,7 @@ cekpoint = []
 oks = []
 id = []
 
+
 def loginSC():
 	os.system('clear')
         print 42*"\033[1;96m="
@@ -97,7 +98,7 @@ def loginSC():
 		os.system('xdg-open https://tatawirdat.blogspot.com')
                 time.sleep(1)
                 LoginSC()
-                
+
 def login():
 	os.system('clear')
 	try:
@@ -380,4 +381,4 @@ def pilih_super():
        
 		
 if __name__ == '__main__':
-        loginSC()
+        loginSC() login()
