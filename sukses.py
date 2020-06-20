@@ -200,7 +200,7 @@ def menu():
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[33;1m Nama Anda \033[1;91m: \033[0;1m"+nama+"\033[0;1m                  "
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[33;1m ID Anda   \033[1;91m: \033[0;1m"+id+"\x1b[0;1m              "
 	print 42*"\033[1;96m="
-	print "\x1b[32m1.\x1b[0;1m Hack facebook Sekarang"
+	print "\x1b[32m1.\x1b[0;1m Hack facebook sekarang \033[32m(✓)"
 	print "\n\x1b[32m0.\x1b[34;1m Keluar            "
 	pilih()
 
@@ -235,8 +235,8 @@ def super():
 	os.system('clear')
 	print logo
 	print 42*"\033[1;96m="
-	print "\x1b[32m1.\x1b[0;1m Hack Dari Daftar Teman"
-	print "\x1b[32m2.\x1b[0;1m Hack Dari Daftar Teman Dari Teman \033[32m(✓)"
+	print "\x1b[32m1.\x1b[0;1m Hack dari daftar teman"
+	print "\x1b[32m2.\x1b[0;1m Hack dari daftar teman dari teman \033[32m(✓)"
 	print "\n\x1b[32m0.\x1b[34;1m Kembali"
 	pilih_super()
 
@@ -393,5 +393,4 @@ def pilih_super():
        
 		
 if __name__ == '__main__':
-        loginSC()
         siapa()
