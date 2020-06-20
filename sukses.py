@@ -107,10 +107,10 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-		print 42*"\033[0;1m-"
+		print 42*"\033[0;1m="
 		print('\033[34;1mSilahkan Daftar fb baru dari google chrome' )
 		print('\033[34;1mAgar tidak terkena chekpoint saat login' )
-		print 42*"\033[0;1m-"
+		print 42*"\033[0;1m="
 		print('\033[1;96m[✓] \x1b[33;1mLOGIN AKUN FACEBOOK KAMU \x1b[1;96m[ ! ]' )
 		id = raw_input('\033[32m[+] \x1b[33;1mID/Email \x1b[33;1m: \x1b[0;1m')
 		pwd = raw_input('\033[32m[+] \x1b[33;1mPassword \x1b[33;1m: \x1b[0;1m')
@@ -186,9 +186,9 @@ def menu():
 		keluar()
 	os.system("clear")
 	print logo
-        print 42*"\033[0;1m-"
+        print 42*"\033[1;96m="
         print('\033[34;1mSilahkan pilih nomor 1 agar masuk ke tahap selanjutnya' )
-	print 42*"\033[0;1m-"
+	print 42*"\033[1;96m="
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[33;1m Nama Anda \033[1;91m: \033[0;1m"+nama+"\033[0;1m                  "
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[33;1m ID Anda   \033[1;91m: \033[0;1m"+id+"\x1b[0;1m              "
 	print 42*"\033[1;96m="
@@ -226,9 +226,9 @@ def super():
 		keluar()
 	os.system('clear')
 	print logo
-        print 42*"\033[0;1m-"
+        print 42*"\033[1;96m="
         print('\033[34;1mSilahkan pilih nomor 2 agar masuk ke tahap selanjutnya' )
-	print 42*"\033[0;1m-"
+	print 42*"\033[1;96m="
 	print "\x1b[32m1.\x1b[0;1m Hack dari daftar teman"
 	print "\x1b[32m2.\x1b[0;1m Hack dari daftar teman dari teman \033[32m(✓)"
 	print "\n\x1b[32m0.\x1b[34;1m Kembali"
@@ -242,11 +242,7 @@ def pilih_super():
 	elif peak =="1":
 		os.system('clear')
 		print logo
-                print 42*"\033[0;1m-"
-                print('\033[34;1mCara pertama untuk mengambil ID teman' )
-                print('\033[34;1mMasuk ke FB yang mau di target' )
-                print('\033[34;1mSalin postingan pertama untuk mendapat kan ID teman' )
-		print 42*"\033[32m-"
+		print 42*"\033[32m="
 		jalan('\033[1;96m[#] \033[1;93mMengambil ID \033[1;97m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
@@ -255,6 +251,10 @@ def pilih_super():
 	elif peak =="2":
 		os.system('clear')
 		print logo
+                print 42*"\033[1;96m="
+                print('\033[34;1mCara pertama untuk mengambil ID teman' )
+                print('\033[34;1mMasuk ke FB yang mau di target' )
+                print('\033[34;1mSalin postingan pertama untuk mendapat kan ID teman' )
 		print 42*"\033[32m="
 		idt = raw_input("\033[1;96m[+] \033[1;93mMasukan ID teman \033[1;91m: \033[0;1m")
 		try:
